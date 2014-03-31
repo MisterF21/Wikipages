@@ -4,3 +4,9 @@
 
 <h2>Email: <%= @contact.email %></h2>
 
+<p><a href="/contacts/<%= @contact.id %>/edit">Edit</a></p>
+<p><a href="/contacts/<%= @contact.id %>"
+      data-confirm="You sure?"
+      data-method="delete"
+      rel="nofollow">Delete</a></p>
+<p><a href="/contacts">Return to contact listing</a></p>
