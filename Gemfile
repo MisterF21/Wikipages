@@ -19,5 +19,5 @@ group :test, :development do
 end
 
 group :test do
-  'shoulda-matchers'
+  gem 'shoulda-matchers'
 end
